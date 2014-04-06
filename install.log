@@ -1,0 +1,2256 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Initializing package states...
+Writing extended state information...
+The following NEW packages will be installed:
+  autoconf automake{a} autotools-dev{a} binfmt-support{a} bison clang 
+  comerr-dev{a} curl krb5-multidev{a} libbison-dev{a} 
+  libclang-common-dev{a} libcurl4-openssl-dev libffi-dev libgcrypt11-dev{a} 
+  libgnutls-dev{a} libgnutls-openssl27{a} libgnutlsxx27{a} 
+  libgpg-error-dev{a} libgssrpc4{a} libidn11-dev{a} libkadm5clnt-mit8{a} 
+  libkadm5srv-mit8{a} libkdb5-6{a} libkrb5-dev{a} libldap2-dev{a} 
+  libltdl-dev{a} libp11-kit-dev{a} libreadline6-dev librtmp-dev{a} 
+  libssl-dev libssl-doc{a} libtasn1-3-dev{a} libtinfo-dev{a} libtool 
+  libxml2-dev{a} libxslt1-dev libyaml-0-2{a} libyaml-dev llvm-3.0{a} 
+  llvm-3.0-dev{a} llvm-3.0-runtime{a} m4{a} zlib1g-dev 
+The following packages will be REMOVED:
+  libidl-common{u} libidl0{u} libindicator-messages-status-provider1{u} 
+  liborbit2{u} 
+The following packages will be upgraded:
+  libc-bin libc-dev-bin libc6 libc6-dev libcurl3 libgcrypt11 libgnutls26 
+  libssl1.0.0 libxml2 libxslt1.1 openssl 
+11 packages upgraded, 43 newly installed, 4 to remove and 386 not upgraded.
+Need to get 43.7 MB of archives. After unpacking 91.9 MB will be used.
+The following packages have unmet dependencies:
+ libc6-dbg : Depends: libc6 (= 2.15-0ubuntu10) but 2.15-0ubuntu10.5 is to be installed.
+The following actions will resolve these dependencies:
+
+     Remove the following packages:              
+1)     libc6-dbg                                 
+2)     valgrind                                  
+
+     Leave the following dependencies unresolved:
+3)     kdevelop recommends valgrind              
+
+
+The following NEW packages will be installed:
+  autoconf automake{a} autotools-dev{a} binfmt-support{a} bison clang 
+  comerr-dev{a} curl krb5-multidev{a} libbison-dev{a} 
+  libclang-common-dev{a} libcurl4-openssl-dev libffi-dev libgcrypt11-dev{a} 
+  libgnutls-dev{a} libgnutls-openssl27{a} libgnutlsxx27{a} 
+  libgpg-error-dev{a} libgssrpc4{a} libidn11-dev{a} libkadm5clnt-mit8{a} 
+  libkadm5srv-mit8{a} libkdb5-6{a} libkrb5-dev{a} libldap2-dev{a} 
+  libltdl-dev{a} libp11-kit-dev{a} libreadline6-dev librtmp-dev{a} 
+  libssl-dev libssl-doc{a} libtasn1-3-dev{a} libtinfo-dev{a} libtool 
+  libxml2-dev{a} libxslt1-dev libyaml-0-2{a} libyaml-dev llvm-3.0{a} 
+  llvm-3.0-dev{a} llvm-3.0-runtime{a} m4{a} zlib1g-dev 
+The following packages will be REMOVED:
+  libc6-dbg{a} libidl-common{u} libidl0{u} 
+  libindicator-messages-status-provider1{u} liborbit2{u} valgrind{a} 
+The following packages will be upgraded:
+  libc-bin libc-dev-bin libc6 libc6-dev libcurl3 libgcrypt11 libgnutls26 
+  libssl1.0.0 libxml2 libxslt1.1 openssl 
+11 packages upgraded, 43 newly installed, 6 to remove and 385 not upgraded.
+Need to get 43.7 MB of archives. After unpacking 28.6 MB will be used.
+Writing extended state information...
+Get: 1 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libgssrpc4 i386 1.10+dfsg~beta1-2ubuntu0.3 [57.7 kB]
+Get: 2 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libkadm5clnt-mit8 i386 1.10+dfsg~beta1-2ubuntu0.3 [38.4 kB]
+Get: 3 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libkdb5-6 i386 1.10+dfsg~beta1-2ubuntu0.3 [37.7 kB]
+Get: 4 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libkadm5srv-mit8 i386 1.10+dfsg~beta1-2ubuntu0.3 [54.5 kB]
+Get: 5 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main m4 i386 1.4.16-2ubuntu1 [195 kB]
+Get: 6 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main autoconf all 2.68-1ubuntu2 [560 kB]
+Get: 7 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main autotools-dev all 20120210.1ubuntu1 [42.4 kB]
+Get: 8 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main automake all 1:1.11.3-1ubuntu2 [571 kB]
+Get: 9 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main binfmt-support i386 2.0.8 [75.4 kB]
+Get: 10 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libbison-dev i386 1:2.5.dfsg-2.1 [33.2 kB]
+Get: 11 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main bison i386 1:2.5.dfsg-2.1 [275 kB]
+Get: 12 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/universe libclang-common-dev i386 3.0-6ubuntu3 [72.8 kB]
+Get: 13 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/universe clang i386 3.0-6ubuntu3 [5,173 kB]
+Get: 14 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main comerr-dev i386 2.1-1.42-1ubuntu2 [42.4 kB]
+Get: 15 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main krb5-multidev i386 1.10+dfsg~beta1-2ubuntu0.3 [125 kB]
+Get: 16 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libidn11-dev i386 1.23-2 [635 kB]
+Get: 17 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libkrb5-dev i386 1.10+dfsg~beta1-2ubuntu0.3 [11.0 kB]
+Get: 18 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libldap2-dev i386 2.4.28-1.1ubuntu4.1 [513 kB]
+Get: 19 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libgpg-error-dev i386 1.10-2ubuntu1 [23.1 kB]
+Get: 20 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main zlib1g-dev i386 1:1.2.3.4.dfsg-3ubuntu4 [162 kB]
+Get: 21 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libtasn1-3-dev i386 2.10-1ubuntu1.1 [355 kB]
+Get: 22 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libp11-kit-dev i386 0.12-2ubuntu1 [45.6 kB]
+Get: 23 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main librtmp-dev i386 2.4~20110711.gitc28f1bab-1 [67.1 kB]
+Get: 24 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libltdl-dev i386 2.4.2-1ubuntu1 [203 kB]
+Get: 25 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libtinfo-dev i386 5.9-4 [93.5 kB]
+Get: 26 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libreadline6-dev i386 6.2-8 [249 kB]
+Get: 27 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libtool i386 2.4.2-1ubuntu1 [302 kB]
+Get: 28 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main llvm-3.0-runtime i386 3.0-4ubuntu1 [31.6 kB]
+Get: 29 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main llvm-3.0 i386 3.0-4ubuntu1 [1,338 kB]
+Get: 30 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main libffi-dev i386 3.0.11~rc1-5 [87.0 kB]
+Get: 31 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main llvm-3.0-dev i386 3.0-4ubuntu1 [12.6 MB]
+Get: 32 http://security.ubuntu.com/ubuntu/ precise-security/main libc6-dev i386 2.15-0ubuntu10.5 [5,107 kB]
+Get: 33 http://security.ubuntu.com/ubuntu/ precise-security/main libc-dev-bin i386 2.15-0ubuntu10.5 [78.2 kB]
+Get: 34 http://security.ubuntu.com/ubuntu/ precise-security/main libc-bin i386 2.15-0ubuntu10.5 [1,133 kB]
+Get: 35 http://security.ubuntu.com/ubuntu/ precise-security/main libc6 i386 2.15-0ubuntu10.5 [3,949 kB]
+Get: 36 http://security.ubuntu.com/ubuntu/ precise-security/main libssl1.0.0 i386 1.0.1-4ubuntu5.11 [1,007 kB]
+Get: 37 http://security.ubuntu.com/ubuntu/ precise-security/main libgcrypt11 i386 1.5.0-3ubuntu0.2 [281 kB]
+Get: 38 http://security.ubuntu.com/ubuntu/ precise-security/main libgnutls26 i386 2.12.14-5ubuntu3.7 [448 kB]
+Get: 39 http://security.ubuntu.com/ubuntu/ precise-security/main libxml2 i386 2.7.8.dfsg-5.1ubuntu4.6 [662 kB]
+Get: 40 http://security.ubuntu.com/ubuntu/ precise-security/main libcurl3 i386 7.22.0-3ubuntu4.7 [241 kB]
+Get: 41 http://security.ubuntu.com/ubuntu/ precise-security/main libgnutls-openssl27 i386 2.12.14-5ubuntu3.7 [21.6 kB]
+Get: 42 http://security.ubuntu.com/ubuntu/ precise-security/main libxslt1.1 i386 1.1.26-8ubuntu1.3 [165 kB]
+Get: 43 http://security.ubuntu.com/ubuntu/ precise-security/main libyaml-0-2 i386 0.1.4-2ubuntu0.12.04.3 [57.5 kB]
+Get: 44 http://security.ubuntu.com/ubuntu/ precise-security/main libgnutlsxx27 i386 2.12.14-5ubuntu3.7 [23.4 kB]
+Get: 45 http://security.ubuntu.com/ubuntu/ precise-security/main openssl i386 1.0.1-4ubuntu5.11 [519 kB]
+Get: 46 http://security.ubuntu.com/ubuntu/ precise-security/main curl i386 7.22.0-3ubuntu4.7 [137 kB]
+Get: 47 http://security.ubuntu.com/ubuntu/ precise-security/main libgcrypt11-dev i386 1.5.0-3ubuntu0.2 [361 kB]
+Get: 48 http://security.ubuntu.com/ubuntu/ precise-security/main libgnutls-dev i386 2.12.14-5ubuntu3.7 [531 kB]
+Get: 49 http://security.ubuntu.com/ubuntu/ precise-security/main libssl-dev i386 1.0.1-4ubuntu5.11 [1,424 kB]
+Get: 50 http://security.ubuntu.com/ubuntu/ precise-security/main libcurl4-openssl-dev i386 7.22.0-3ubuntu4.7 [1,055 kB]
+Get: 51 http://security.ubuntu.com/ubuntu/ precise-security/main libssl-doc all 1.0.1-4ubuntu5.11 [1,034 kB]
+Get: 52 http://security.ubuntu.com/ubuntu/ precise-security/main libxml2-dev i386 2.7.8.dfsg-5.1ubuntu4.6 [761 kB]
+Get: 53 http://security.ubuntu.com/ubuntu/ precise-security/main libxslt1-dev i386 1.1.26-8ubuntu1.3 [558 kB]
+Get: 54 http://security.ubuntu.com/ubuntu/ precise-security/main libyaml-dev i386 0.1.4-2ubuntu0.12.04.3 [66.6 kB]
+Fetched 43.7 MB in 2min 47s (261 kB/s)
+Extracting templates from packages: 55%Extracting templates from packages: 100%
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 204973 files and directories currently installed.)
+Removing valgrind ...
+Removing libc6-dbg ...
+Removing liborbit2 ...
+Removing libidl0 ...
+Removing libidl-common ...
+Removing libindicator-messages-status-provider1 ...
+Processing triggers for man-db ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 204397 files and directories currently installed.)
+Preparing to replace libc6-dev 2.15-0ubuntu10 (using .../libc6-dev_2.15-0ubuntu10.5_i386.deb) ...
+Unpacking replacement libc6-dev ...
+Preparing to replace libc-dev-bin 2.15-0ubuntu10 (using .../libc-dev-bin_2.15-0ubuntu10.5_i386.deb) ...
+Unpacking replacement libc-dev-bin ...
+Preparing to replace libc-bin 2.15-0ubuntu10 (using .../libc-bin_2.15-0ubuntu10.5_i386.deb) ...
+Unpacking replacement libc-bin ...
+Processing triggers for man-db ...
+Setting up libc-bin (2.15-0ubuntu10.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 204395 files and directories currently installed.)
+Preparing to replace libc6 2.15-0ubuntu10 (using .../libc6_2.15-0ubuntu10.5_i386.deb) ...
+Unpacking replacement libc6 ...
+Setting up libc6 (2.15-0ubuntu10.5) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 204395 files and directories currently installed.)
+Preparing to replace libssl1.0.0 1.0.1-4ubuntu5.3 (using .../libssl1.0.0_1.0.1-4ubuntu5.11_i386.deb) ...
+Unpacking replacement libssl1.0.0 ...
+Setting up libssl1.0.0 (1.0.1-4ubuntu5.11) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 204395 files and directories currently installed.)
+Preparing to replace libgcrypt11 1.5.0-3ubuntu0.1 (using .../libgcrypt11_1.5.0-3ubuntu0.2_i386.deb) ...
+Unpacking replacement libgcrypt11 ...
+Preparing to replace libgnutls26 2.12.14-5ubuntu3.1 (using .../libgnutls26_2.12.14-5ubuntu3.7_i386.deb) ...
+Unpacking replacement libgnutls26 ...
+Selecting previously unselected package libgssrpc4.
+Unpacking libgssrpc4 (from .../libgssrpc4_1.10+dfsg~beta1-2ubuntu0.3_i386.deb) ...
+Selecting previously unselected package libkadm5clnt-mit8.
+Unpacking libkadm5clnt-mit8 (from .../libkadm5clnt-mit8_1.10+dfsg~beta1-2ubuntu0.3_i386.deb) ...
+Selecting previously unselected package libkdb5-6.
+Unpacking libkdb5-6 (from .../libkdb5-6_1.10+dfsg~beta1-2ubuntu0.3_i386.deb) ...
+Selecting previously unselected package libkadm5srv-mit8.
+Unpacking libkadm5srv-mit8 (from .../libkadm5srv-mit8_1.10+dfsg~beta1-2ubuntu0.3_i386.deb) ...
+Preparing to replace libxml2 2.7.8.dfsg-5.1ubuntu4.1 (using .../libxml2_2.7.8.dfsg-5.1ubuntu4.6_i386.deb) ...
+Unpacking replacement libxml2 ...
+Preparing to replace libcurl3 7.22.0-3ubuntu4 (using .../libcurl3_7.22.0-3ubuntu4.7_i386.deb) ...
+Unpacking replacement libcurl3 ...
+Selecting previously unselected package libgnutls-openssl27.
+Unpacking libgnutls-openssl27 (from .../libgnutls-openssl27_2.12.14-5ubuntu3.7_i386.deb) ...
+Preparing to replace libxslt1.1 1.1.26-8ubuntu1.1 (using .../libxslt1.1_1.1.26-8ubuntu1.3_i386.deb) ...
+Unpacking replacement libxslt1.1 ...
+Selecting previously unselected package libyaml-0-2.
+Unpacking libyaml-0-2 (from .../libyaml-0-2_0.1.4-2ubuntu0.12.04.3_i386.deb) ...
+Selecting previously unselected package libgnutlsxx27.
+Unpacking libgnutlsxx27 (from .../libgnutlsxx27_2.12.14-5ubuntu3.7_i386.deb) ...
+Preparing to replace openssl 1.0.1-4ubuntu5.3 (using .../openssl_1.0.1-4ubuntu5.11_i386.deb) ...
+Unpacking replacement openssl ...
+Selecting previously unselected package m4.
+Unpacking m4 (from .../m4_1.4.16-2ubuntu1_i386.deb) ...
+Selecting previously unselected package autoconf.
+Unpacking autoconf (from .../autoconf_2.68-1ubuntu2_all.deb) ...
+Selecting previously unselected package autotools-dev.
+Unpacking autotools-dev (from .../autotools-dev_20120210.1ubuntu1_all.deb) ...
+Selecting previously unselected package automake.
+Unpacking automake (from .../automake_1%3a1.11.3-1ubuntu2_all.deb) ...
+Selecting previously unselected package binfmt-support.
+Unpacking binfmt-support (from .../binfmt-support_2.0.8_i386.deb) ...
+Selecting previously unselected package libbison-dev.
+Unpacking libbison-dev (from .../libbison-dev_1%3a2.5.dfsg-2.1_i386.deb) ...
+Selecting previously unselected package bison.
+Unpacking bison (from .../bison_1%3a2.5.dfsg-2.1_i386.deb) ...
+Selecting previously unselected package libclang-common-dev.
+Unpacking libclang-common-dev (from .../libclang-common-dev_3.0-6ubuntu3_i386.deb) ...
+Selecting previously unselected package clang.
+Unpacking clang (from .../clang_3.0-6ubuntu3_i386.deb) ...
+Selecting previously unselected package curl.
+Unpacking curl (from .../curl_7.22.0-3ubuntu4.7_i386.deb) ...
+Selecting previously unselected package comerr-dev.
+Unpacking comerr-dev (from .../comerr-dev_2.1-1.42-1ubuntu2_i386.deb) ...
+Selecting previously unselected package krb5-multidev.
+Unpacking krb5-multidev (from .../krb5-multidev_1.10+dfsg~beta1-2ubuntu0.3_i386.deb) ...
+Selecting previously unselected package libidn11-dev.
+Unpacking libidn11-dev (from .../libidn11-dev_1.23-2_i386.deb) ...
+Selecting previously unselected package libkrb5-dev.
+Unpacking libkrb5-dev (from .../libkrb5-dev_1.10+dfsg~beta1-2ubuntu0.3_i386.deb) ...
+Selecting previously unselected package libldap2-dev.
+Unpacking libldap2-dev (from .../libldap2-dev_2.4.28-1.1ubuntu4.1_i386.deb) ...
+Selecting previously unselected package libgpg-error-dev.
+Unpacking libgpg-error-dev (from .../libgpg-error-dev_1.10-2ubuntu1_i386.deb) ...
+Selecting previously unselected package libgcrypt11-dev.
+Unpacking libgcrypt11-dev (from .../libgcrypt11-dev_1.5.0-3ubuntu0.2_i386.deb) ...
+Selecting previously unselected package zlib1g-dev.
+Unpacking zlib1g-dev (from .../zlib1g-dev_1%3a1.2.3.4.dfsg-3ubuntu4_i386.deb) ...
+Selecting previously unselected package libtasn1-3-dev.
+Unpacking libtasn1-3-dev (from .../libtasn1-3-dev_2.10-1ubuntu1.1_i386.deb) ...
+Selecting previously unselected package libp11-kit-dev.
+Unpacking libp11-kit-dev (from .../libp11-kit-dev_0.12-2ubuntu1_i386.deb) ...
+Selecting previously unselected package libgnutls-dev.
+Unpacking libgnutls-dev (from .../libgnutls-dev_2.12.14-5ubuntu3.7_i386.deb) ...
+Selecting previously unselected package librtmp-dev.
+Unpacking librtmp-dev (from .../librtmp-dev_2.4~20110711.gitc28f1bab-1_i386.deb) ...
+Selecting previously unselected package libssl-dev.
+Unpacking libssl-dev (from .../libssl-dev_1.0.1-4ubuntu5.11_i386.deb) ...
+Selecting previously unselected package libcurl4-openssl-dev.
+Unpacking libcurl4-openssl-dev (from .../libcurl4-openssl-dev_7.22.0-3ubuntu4.7_i386.deb) ...
+Selecting previously unselected package libltdl-dev.
+Unpacking libltdl-dev (from .../libltdl-dev_2.4.2-1ubuntu1_i386.deb) ...
+Selecting previously unselected package libtinfo-dev.
+Unpacking libtinfo-dev (from .../libtinfo-dev_5.9-4_i386.deb) ...
+Selecting previously unselected package libreadline6-dev.
+Unpacking libreadline6-dev (from .../libreadline6-dev_6.2-8_i386.deb) ...
+Selecting previously unselected package libssl-doc.
+Unpacking libssl-doc (from .../libssl-doc_1.0.1-4ubuntu5.11_all.deb) ...
+Selecting previously unselected package libtool.
+Unpacking libtool (from .../libtool_2.4.2-1ubuntu1_i386.deb) ...
+Selecting previously unselected package libxml2-dev.
+Unpacking libxml2-dev (from .../libxml2-dev_2.7.8.dfsg-5.1ubuntu4.6_i386.deb) ...
+Selecting previously unselected package libxslt1-dev.
+Unpacking libxslt1-dev (from .../libxslt1-dev_1.1.26-8ubuntu1.3_i386.deb) ...
+Selecting previously unselected package llvm-3.0-runtime.
+Unpacking llvm-3.0-runtime (from .../llvm-3.0-runtime_3.0-4ubuntu1_i386.deb) ...
+Selecting previously unselected package llvm-3.0.
+Unpacking llvm-3.0 (from .../llvm-3.0_3.0-4ubuntu1_i386.deb) ...
+Selecting previously unselected package libffi-dev.
+Unpacking libffi-dev (from .../libffi-dev_3.0.11~rc1-5_i386.deb) ...
+Selecting previously unselected package llvm-3.0-dev.
+Unpacking llvm-3.0-dev (from .../llvm-3.0-dev_3.0-4ubuntu1_i386.deb) ...
+Selecting previously unselected package libyaml-dev.
+Unpacking libyaml-dev (from .../libyaml-dev_0.1.4-2ubuntu0.12.04.3_i386.deb) ...
+Processing triggers for man-db ...
+Processing triggers for install-info ...
+Processing triggers for doc-base ...
+Processing 7 added doc-base files...
+Processing triggers for ureadahead ...
+ureadahead will be reprofiled on next reboot
+Setting up libc-dev-bin (2.15-0ubuntu10.5) ...
+Setting up libc6-dev (2.15-0ubuntu10.5) ...
+Setting up libgcrypt11 (1.5.0-3ubuntu0.2) ...
+Setting up libgnutls26 (2.12.14-5ubuntu3.7) ...
+Setting up libgssrpc4 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libkadm5clnt-mit8 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libkdb5-6 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libkadm5srv-mit8 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libxml2 (2.7.8.dfsg-5.1ubuntu4.6) ...
+Setting up libcurl3 (7.22.0-3ubuntu4.7) ...
+Setting up libgnutls-openssl27 (2.12.14-5ubuntu3.7) ...
+Setting up libxslt1.1 (1.1.26-8ubuntu1.3) ...
+Setting up libyaml-0-2 (0.1.4-2ubuntu0.12.04.3) ...
+Setting up libgnutlsxx27 (2.12.14-5ubuntu3.7) ...
+Setting up openssl (1.0.1-4ubuntu5.11) ...
+Setting up m4 (1.4.16-2ubuntu1) ...
+Setting up autoconf (2.68-1ubuntu2) ...
+Setting up autotools-dev (20120210.1ubuntu1) ...
+Setting up automake (1:1.11.3-1ubuntu2) ...
+update-alternatives: using /usr/bin/automake-1.11 to provide /usr/bin/automake (automake) in auto mode.
+Setting up binfmt-support (2.0.8) ...
+binfmt-support stop/waiting
+Setting up libbison-dev (1:2.5.dfsg-2.1) ...
+Setting up bison (1:2.5.dfsg-2.1) ...
+update-alternatives: using /usr/bin/bison.yacc to provide /usr/bin/yacc (yacc) in auto mode.
+Setting up libclang-common-dev (3.0-6ubuntu3) ...
+Setting up clang (3.0-6ubuntu3) ...
+Setting up curl (7.22.0-3ubuntu4.7) ...
+Setting up comerr-dev (2.1-1.42-1ubuntu2) ...
+Setting up krb5-multidev (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libidn11-dev (1.23-2) ...
+Setting up libkrb5-dev (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libldap2-dev (2.4.28-1.1ubuntu4.1) ...
+Setting up libgpg-error-dev (1.10-2ubuntu1) ...
+Setting up libgcrypt11-dev (1.5.0-3ubuntu0.2) ...
+Setting up zlib1g-dev (1:1.2.3.4.dfsg-3ubuntu4) ...
+Setting up libtasn1-3-dev (2.10-1ubuntu1.1) ...
+Setting up libp11-kit-dev (0.12-2ubuntu1) ...
+Setting up libgnutls-dev (2.12.14-5ubuntu3.7) ...
+Setting up librtmp-dev (2.4~20110711.gitc28f1bab-1) ...
+Setting up libssl-dev (1.0.1-4ubuntu5.11) ...
+Setting up libcurl4-openssl-dev (7.22.0-3ubuntu4.7) ...
+Setting up libltdl-dev (2.4.2-1ubuntu1) ...
+Setting up libtinfo-dev (5.9-4) ...
+Setting up libreadline6-dev (6.2-8) ...
+Setting up libssl-doc (1.0.1-4ubuntu5.11) ...
+Setting up libtool (2.4.2-1ubuntu1) ...
+Setting up libxml2-dev (2.7.8.dfsg-5.1ubuntu4.6) ...
+Setting up libxslt1-dev (1.1.26-8ubuntu1.3) ...
+Setting up llvm-3.0-runtime (3.0-4ubuntu1) ...
+Setting up llvm-3.0 (3.0-4ubuntu1) ...
+Setting up libffi-dev (3.0.11~rc1-5) ...
+Setting up llvm-3.0-dev (3.0-4ubuntu1) ...
+Setting up libyaml-dev (0.1.4-2ubuntu0.12.04.3) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+The following NEW packages will be installed:
+  libmysqlclient-dev libsqlite3-dev sqlite3 
+The following packages will be upgraded:
+  libmysqlclient18 libsqlite3-0 mysql-common 
+3 packages upgraded, 3 newly installed, 0 to remove and 382 not upgraded.
+Need to get 3,124 kB of archives. After unpacking 6,457 kB will be used.
+Writing extended state information...
+Get: 1 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libsqlite3-0 i386 3.7.9-2ubuntu1.1 [354 kB]
+Get: 2 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main libsqlite3-dev i386 3.7.9-2ubuntu1.1 [448 kB]
+Get: 3 http://saraswati.amritavidya.edu/ubuntu12.04/ precise-updates/main sqlite3 i386 3.7.9-2ubuntu1.1 [26.2 kB]
+Get: 4 http://security.ubuntu.com/ubuntu/ precise-security/main mysql-common all 5.5.35-0ubuntu0.12.04.1 [13.0 kB]
+Get: 5 http://security.ubuntu.com/ubuntu/ precise-security/main libmysqlclient18 i386 5.5.35-0ubuntu0.12.04.1 [924 kB]
+Get: 6 http://security.ubuntu.com/ubuntu/ precise-security/main libmysqlclient-dev i386 5.5.35-0ubuntu0.12.04.1 [1,360 kB]
+Fetched 3,124 kB in 23s (131 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 208240 files and directories currently installed.)
+Preparing to replace libsqlite3-0 3.7.9-2ubuntu1 (using .../libsqlite3-0_3.7.9-2ubuntu1.1_i386.deb) ...
+Unpacking replacement libsqlite3-0 ...
+Preparing to replace mysql-common 5.5.24-0ubuntu0.12.04.1 (using .../mysql-common_5.5.35-0ubuntu0.12.04.1_all.deb) ...
+Unpacking replacement mysql-common ...
+Preparing to replace libmysqlclient18 5.5.24-0ubuntu0.12.04.1 (using .../libmysqlclient18_5.5.35-0ubuntu0.12.04.1_i386.deb) ...
+Unpacking replacement libmysqlclient18 ...
+Selecting previously unselected package libmysqlclient-dev.
+Unpacking libmysqlclient-dev (from .../libmysqlclient-dev_5.5.35-0ubuntu0.12.04.1_i386.deb) ...
+Selecting previously unselected package libsqlite3-dev.
+Unpacking libsqlite3-dev (from .../libsqlite3-dev_3.7.9-2ubuntu1.1_i386.deb) ...
+Selecting previously unselected package sqlite3.
+Unpacking sqlite3 (from .../sqlite3_3.7.9-2ubuntu1.1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libsqlite3-0 (3.7.9-2ubuntu1.1) ...
+Setting up mysql-common (5.5.35-0ubuntu0.12.04.1) ...
+Installing new version of config file /etc/mysql/my.cnf ...
+Setting up libmysqlclient18 (5.5.35-0ubuntu0.12.04.1) ...
+Setting up libmysqlclient-dev (5.5.35-0ubuntu0.12.04.1) ...
+Setting up libsqlite3-dev (3.7.9-2ubuntu1.1) ...
+Setting up sqlite3 (3.7.9-2ubuntu1.1) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+The following NEW packages will be installed:
+  git{a} git-core git-man{a} liberror-perl{a} 
+0 packages upgraded, 4 newly installed, 0 to remove and 382 not upgraded.
+Need to get 6,618 kB of archives. After unpacking 15.3 MB will be used.
+Writing extended state information...
+Get: 1 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main liberror-perl all 0.17-1 [23.8 kB]
+Get: 2 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main git-man all 1:1.7.9.5-1 [630 kB]
+Get: 3 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main git i386 1:1.7.9.5-1 [5,963 kB]
+Get: 4 http://saraswati.amritavidya.edu/ubuntu12.04/ precise/main git-core all 1:1.7.9.5-1 [1,384 B]
+Fetched 6,618 kB in 0s (10.9 MB/s)
+Selecting previously unselected package liberror-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 208321 files and directories currently installed.)
+Unpacking liberror-perl (from .../liberror-perl_0.17-1_all.deb) ...
+Selecting previously unselected package git-man.
+Unpacking git-man (from .../git-man_1%3a1.7.9.5-1_all.deb) ...
+Selecting previously unselected package git.
+Unpacking git (from .../git_1%3a1.7.9.5-1_i386.deb) ...
+Selecting previously unselected package git-core.
+Unpacking git-core (from .../git-core_1%3a1.7.9.5-1_all.deb) ...
+Processing triggers for man-db ...
+Setting up liberror-perl (0.17-1) ...
+Setting up git-man (1:1.7.9.5-1) ...
+Setting up git (1:1.7.9.5-1) ...
+Setting up git-core (1:1.7.9.5-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking target system type... i686-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether gcc needs -traditional... no
+checking for ld... ld
+checking whether the linker is GNU ld... yes
+checking whether gcc -E accepts -o... yes
+checking for __sync_val_compare_and_swap... yes
+checking for ranlib... ranlib
+checking for ar... ar
+checking for as... as
+checking for objdump... objdump
+checking for objcopy... objcopy
+checking for nm... nm
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for dtrace... no
+checking for dot... no
+checking for doxygen... no
+checking for pkg-config... pkg-config
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for cd using physical directory... cd -P
+checking whether CFLAGS is valid... yes
+checking whether LDFLAGS is valid... yes
+checking whether -Wno-unused-parameter is accepted as CFLAGS... yes
+checking whether -Wno-parentheses is accepted as CFLAGS... yes
+checking whether -Wno-long-long is accepted as CFLAGS... yes
+checking whether -Wno-missing-field-initializers is accepted as CFLAGS... yes
+checking whether -Wunused-variable is accepted as CFLAGS... yes
+checking whether -Wpointer-arith is accepted as CFLAGS... yes
+checking whether -Wwrite-strings is accepted as CFLAGS... yes
+checking whether -Wdeclaration-after-statement is accepted as CFLAGS... yes
+checking whether -Wshorten-64-to-32 is accepted as CFLAGS... no
+checking whether -Wimplicit-function-declaration is accepted as CFLAGS... yes
+checking whether -Wdivision-by-zero is accepted as CFLAGS... no
+checking whether -Wextra-tokens is accepted as CFLAGS... no
+checking whether -Wall -Wextra is accepted as CFLAGS... yes
+checking whether -D_FORTIFY_SOURCE=2 is accepted as CFLAGS... yes
+checking whether -fstack-protector is accepted as CFLAGS... yes
+checking whether -fstack-protector is accepted as LDFLAGS... yes
+checking whether -ansi -std=iso9899:199409 is accepted as CFLAGS... yes
+checking whether -fno-strict-overflow is accepted as CFLAGS... yes
+checking whether -ggdb3 is accepted as CFLAGS... yes
+checking whether -fvisibility=hidden is accepted as CFLAGS... yes
+checking whether -fno-fast-math is accepted as CFLAGS... yes
+checking for crypt in -lcrypt... yes
+checking for dlopen in -ldl... yes
+checking for shl_load in -ldld... no
+checking for shutdown in -lsocket... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sys/fcntl.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking syscall.h usability... yes
+checking syscall.h presence... yes
+checking for syscall.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking a.out.h usability... yes
+checking a.out.h presence... yes
+checking for a.out.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/utime.h usability... no
+checking sys/utime.h presence... no
+checking for sys/utime.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking ucontext.h usability... yes
+checking ucontext.h presence... yes
+checking for ucontext.h... yes
+checking intrinsics.h usability... no
+checking intrinsics.h presence... no
+checking for intrinsics.h... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking sys/sendfile.h usability... yes
+checking sys/sendfile.h presence... yes
+checking for sys/sendfile.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking net/socket.h usability... no
+checking net/socket.h presence... no
+checking for net/socket.h... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking process.h usability... no
+checking process.h presence... no
+checking for process.h... no
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking atomic.h usability... no
+checking atomic.h presence... no
+checking for atomic.h... no
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking malloc_np.h usability... no
+checking malloc_np.h presence... no
+checking for malloc_np.h... no
+checking malloc/malloc.h usability... no
+checking malloc/malloc.h presence... no
+checking for malloc/malloc.h... no
+checking setjmpex.h usability... no
+checking setjmpex.h presence... no
+checking for setjmpex.h... no
+checking gmp.h usability... no
+checking gmp.h presence... no
+checking for gmp.h... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking whether byte ordering is bigendian... no
+checking for an ANSI C-conforming const... yes
+checking whether char is unsigned... no
+checking for inline... __inline__
+checking for working volatile... yes
+checking for long long... yes
+checking for off_t... yes
+checking char bit... 8
+checking size of int... 4
+checking size of short... 2
+checking size of long... 4
+checking size of long long... 8
+checking size of __int64... 0
+checking size of __int128... 0
+checking size of off_t... 8
+checking size of void*... 4
+checking size of float... 4
+checking size of double... 8
+checking size of time_t... 4
+checking size of clock_t... 4
+checking for printf prefix for long long... ll
+checking for pid_t... yes
+checking for convertible type of pid_t... INT
+checking for uid_t... yes
+checking for convertible type of uid_t... UINT
+checking for gid_t... yes
+checking for convertible type of gid_t... UINT
+checking for time_t... yes
+checking for convertible type of time_t... LONG
+checking for dev_t... yes
+checking for convertible type of dev_t... ULL
+checking for mode_t... yes
+checking for convertible type of mode_t... UINT
+checking for rlim_t... yes
+checking for convertible type of rlim_t... ULL
+checking for off_t... (cached) yes
+checking for convertible type of off_t... LL
+checking for clockid_t... yes
+checking for convertible type of clockid_t... INT
+checking for prototypes... yes
+checking token paste string... ansi
+checking stringization... #expr
+checking string literal concatenation... yes
+checking for variable length prototypes and stdarg.h... yes
+checking for variable length macro... yes
+checking for noreturn function attribute... __attribute__ ((noreturn)) x
+checking for deprecated function attribute... __attribute__ ((deprecated)) x
+checking for noinline function attribute... __attribute__ ((noinline)) x
+checking for stdcall function attribute... __attribute__ ((stdcall)) x
+checking for cdecl function attribute... __attribute__ ((cdecl)) x
+checking for fastcall function attribute... __attribute__ ((fastcall)) x
+checking for function alias... alias
+checking for __atomic builtins... no
+checking for __sync builtins... yes
+checking for __builtin_unreachable... yes
+checking for exported function attribute... __attribute__ ((visibility("default")))
+checking for function name string predefined identifier... __func__
+checking whether sys_nerr is declared... yes
+checking whether getenv is declared... yes
+checking for size_t... yes
+checking size of size_t... 4
+checking size of ptrdiff_t... 4
+checking for printf prefix for size_t... z
+checking for printf prefix for ptrdiff_t... t
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_rdev... yes
+checking size of struct stat.st_size... SIZEOF_LONG_LONG
+checking size of struct stat.st_blocks... SIZEOF_LONG_LONG
+checking for struct stat.st_atim... yes
+checking for struct stat.st_atimespec... no
+checking for struct stat.st_atimensec... no
+checking for struct stat.st_mtim... yes
+checking for struct stat.st_mtimespec... no
+checking for struct stat.st_mtimensec... no
+checking for struct stat.st_ctim... yes
+checking for struct stat.st_ctimespec... no
+checking for struct stat.st_ctimensec... no
+checking for struct timeval... yes
+checking size of struct timeval.tv_sec... SIZEOF_TIME_T
+checking for struct timespec... yes
+checking for struct timezone... yes
+checking for clockid_t... (cached) yes
+checking for fd_mask... yes
+checking for int8_t... yes
+checking size of int8_t... 1
+checking for uint8_t... yes
+checking size of uint8_t... 1
+checking for int16_t... yes
+checking size of int16_t... 2
+checking for uint16_t... yes
+checking size of uint16_t... 2
+checking for int32_t... yes
+checking size of int32_t... 4
+checking for uint32_t... yes
+checking size of uint32_t... 4
+checking for int64_t... yes
+checking size of int64_t... 8
+checking for uint64_t... yes
+checking size of uint64_t... 8
+checking for int128_t... no
+checking for uint128_t... no
+checking for intptr_t... yes
+checking size of intptr_t... 4
+checking for uintptr_t... yes
+checking size of uintptr_t... 4
+checking for ssize_t... yes
+checking size of ssize_t... 4
+checking for stack end address... __libc_stack_end
+checking for uid_t in sys/types.h... (cached) yes
+checking type of array argument to getgroups... gid_t
+checking return type of signal handlers... void
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for dynamic size alloca... ok
+checking for working memcmp... yes
+checking for broken erfc of glibc-2.3.6 on IA64... no
+checking for dup2... yes
+checking for memmove... yes
+checking for strerror... yes
+checking for strchr... yes
+checking for strstr... yes
+checking for crypt... yes
+checking for flock... yes
+checking for isnan... yes
+checking for finite... yes
+checking for isinf... yes
+checking for hypot... yes
+checking for acosh... yes
+checking for erf... yes
+checking for tgamma... yes
+checking for lgamma_r... yes
+checking for cbrt... yes
+checking for strlcpy... no
+checking for strlcat... no
+checking for ffs... yes
+checking for setproctitle... no
+checking sys/pstat.h usability... no
+checking sys/pstat.h presence... no
+checking for sys/pstat.h... no
+checking for signbit... yes
+checking for __syscall... no
+checking for _longjmp... yes
+checking for _setjmp... yes
+checking for _setjmpex... no
+checking for chroot... yes
+checking for chsize... no
+checking for clock_gettime... no
+checking for cosh... yes
+checking for daemon... (cached) no
+checking for dl_iterate_phdr... yes
+checking for dlopen... yes
+checking for dup... yes
+checking for dup3... yes
+checking for eaccess... yes
+checking for endgrent... yes
+checking for fchmod... yes
+checking for fchown... yes
+checking for fcntl... yes
+checking for fdatasync... yes
+checking for fmod... yes
+checking for fork... yes
+checking for fsync... yes
+checking for ftruncate... yes
+checking for ftruncate64... yes
+checking for getcwd... yes
+checking for getgrnam_r... yes
+checking for getgroups... yes
+checking for getpgid... yes
+checking for getpgrp... yes
+checking for getpriority... yes
+checking for getpwnam_r... yes
+checking for getrlimit... yes
+checking for getsid... yes
+checking for gettimeofday... yes
+checking for gmtime_r... yes
+checking for initgroups... yes
+checking for ioctl... yes
+checking for issetugid... no
+checking for killpg... yes
+checking for lchmod... no
+checking for lchown... yes
+checking for link... yes
+checking for llabs... yes
+checking for lockf... yes
+checking for log2... yes
+checking for lstat... yes
+checking for malloc_usable_size... yes
+checking for malloc_size... no
+checking for mblen... yes
+checking for memalign... yes
+checking for memrchr... yes
+checking for mktime... yes
+checking for pipe2... yes
+checking for poll... yes
+checking for posix_fadvise... yes
+checking for posix_memalign... yes
+checking for ppoll... yes
+checking for pread... yes
+checking for readlink... yes
+checking for round... yes
+checking for seekdir... yes
+checking for select_large_fdset... no
+checking for sendfile... yes
+checking for setegid... yes
+checking for setenv... yes
+checking for seteuid... yes
+checking for setgid... yes
+checking for setgroups... yes
+checking for setpgid... yes
+checking for setpgrp... yes
+checking for setregid... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for setreuid... yes
+checking for setrgid... no
+checking for setrlimit... yes
+checking for setruid... no
+checking for setsid... yes
+checking for setuid... yes
+checking for shutdown... yes
+checking for sigaction... yes
+checking for sigaltstack... yes
+checking for sigprocmask... yes
+checking for sinh... yes
+checking for spawnv... no
+checking for symlink... yes
+checking for syscall... yes
+checking for sysconf... yes
+checking for tanh... yes
+checking for telldir... yes
+checking for timegm... yes
+checking for times... yes
+checking for truncate... yes
+checking for truncate64... yes
+checking for unsetenv... yes
+checking for utimensat... yes
+checking for utimes... yes
+checking for wait4... yes
+checking for waitpid... yes
+checking for __builtin_bswap16... no
+checking for __builtin_bswap32... yes
+checking for __builtin_bswap64... yes
+checking for __builtin_clz... yes
+checking for __builtin_clzl... yes
+checking for __builtin_clzll... yes
+checking for __builtin_choose_expr... yes
+checking for __builtin_types_compatible_p... yes
+checking for clock_gettime in -lrt... yes
+checking for clock_getres... yes
+checking for unsetenv returns a value... yes
+checking for sigsetjmp as a macro or function... yes
+checking for __builtin_setjmp... no
+checking for setjmp type... _setjmp
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct tm.tm_gmtoff... yes
+checking for external int daylight... yes
+checking for external timezone... long
+checking for external altzone... no
+checking for timezone... yes
+checking whether timezone requires zero arguments... yes
+checking for negative time_t for gmtime(3)... yes
+checking for localtime(3) overflow correctly... yes
+checking whether right shift preserve sign bit... yes
+checking read count field in FILE structures... not found (OK if using GNU libc)
+checking read buffer ptr field in FILE structures... _IO_read_ptr
+checking read buffer end field in FILE structures... _IO_read_end
+checking size of struct stat.st_ino... SIZEOF_LONG_LONG
+checking whether _SC_CLK_TCK is supported... yes
+checking stack growing direction on i686... -1
+checking for pthread_kill in -lthr... no
+checking for pthread_kill in -lpthread... yes
+checking for pthread_np.h... no
+checking for sched_yield... yes
+checking for pthread_attr_setinheritsched... yes
+checking for pthread_getattr_np... yes
+checking for pthread_attr_get_np... no
+checking for pthread_attr_getstack... yes
+checking for pthread_get_stackaddr_np... no
+checking for pthread_get_stacksize_np... no
+checking for thr_stksegment... no
+checking for pthread_stackseg_np... no
+checking for pthread_getthrds_np... no
+checking for pthread_cond_init... yes
+checking for pthread_condattr_setclock... yes
+checking for pthread_condattr_init... yes
+checking for pthread_sigmask... yes
+checking for pthread_attr_init... yes
+checking for getcontext... yes
+checking for setcontext... yes
+checking if fork works with pthread... yes
+checking whether ELF binaries are produced... yes
+checking elf.h usability... yes
+checking elf.h presence... yes
+checking for elf.h... yes
+checking elf_abi.h usability... no
+checking elf_abi.h presence... no
+checking for elf_abi.h... no
+checking whether OS depend dynamic link works... yes
+checking for backtrace... yes
+checking for broken backtrace... no
+checking valgrind/memcheck.h usability... no
+checking valgrind/memcheck.h presence... no
+checking for valgrind/memcheck.h... no
+checking for strip... strip
+checking whether -fPIE is accepted as CFLAGS... yes
+checking whether -pie is accepted as LDFLAGS... yes
+checking for prefix of external symbols... NONE
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking if make is GNU make... yes
+checking for memmem... yes
+checking for broken memmem... no
+checking for nroff... /usr/bin/nroff
+.ext/include/i686-linux/ruby/config.h updated
+ruby library version = 2.1.0
+configure: creating ./config.status
+config.status: creating GNUmakefile
+config.status: creating Makefile
+config.status: creating ruby-2.1.pc
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -ansi -std=iso9899:199409 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT -fPIE
+	CPPFLAGS =   -I. -I.ext/include/i686-linux -I./include -I.
+	DLDFLAGS = -fstack-protector -pie  
+	SOLIBS = 
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+compiling main.c
+compiling dmydln.c
+compiling miniinit.c
+compiling miniprelude.c
+copying dummy probes.h
+compiling array.c
+compiling bignum.c
+compiling class.c
+compiling compar.c
+compiling complex.c
+compiling dir.c
+compiling dln_find.c
+compiling encoding.c
+compiling enum.c
+compiling enumerator.c
+compiling error.c
+compiling eval.c
+compiling load.c
+compiling proc.c
+compiling file.c
+compiling gc.c
+compiling hash.c
+compiling inits.c
+compiling io.c
+compiling marshal.c
+compiling math.c
+compiling node.c
+compiling numeric.c
+compiling object.c
+compiling pack.c
+compiling parse.c
+compiling process.c
+compiling random.c
+compiling range.c
+compiling rational.c
+compiling re.c
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+compiling regsyntax.c
+compiling ruby.c
+compiling safe.c
+compiling signal.c
+compiling sprintf.c
+compiling st.c
+compiling strftime.c
+compiling string.c
+compiling struct.c
+compiling time.c
+compiling transcode.c
+compiling util.c
+compiling variable.c
+compiling version.c
+compiling compile.c
+compiling debug.c
+compiling iseq.c
+compiling vm.c
+compiling vm_dump.c
+compiling vm_backtrace.c
+compiling vm_trace.c
+compiling thread.c
+compiling cont.c
+compiling ./enc/ascii.c
+compiling ./enc/us_ascii.c
+compiling ./enc/unicode.c
+compiling ./enc/utf_8.c
+compiling newline.c
+compiling ./missing/strlcpy.c
+compiling ./missing/strlcat.c
+compiling ./missing/setproctitle.c
+compiling addr2line.c
+compiling dmyext.c
+linking miniruby
+rbconfig.rb updated
+generating enc.mk
+compiling dln.c
+compiling localeinit.c
+creating verconf.h
+compiling loadpath.c
+generating prelude.c
+compiling prelude.c
+linking static-library libruby-static.a
+verifying static-library libruby-static.a
+generating encdb.h
+encdb.h unchanged
+making enc
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+compiling ./enc/encdb.c
+linking encoding encdb.so
+compiling ./enc/big5.c
+linking encoding big5.so
+compiling ./enc/cp949.c
+linking encoding cp949.so
+compiling ./enc/emacs_mule.c
+linking encoding emacs_mule.so
+compiling ./enc/euc_jp.c
+linking encoding euc_jp.so
+compiling ./enc/euc_kr.c
+linking encoding euc_kr.so
+compiling ./enc/euc_tw.c
+linking encoding euc_tw.so
+compiling ./enc/gb2312.c
+linking encoding gb2312.so
+compiling ./enc/gb18030.c
+linking encoding gb18030.so
+compiling ./enc/gbk.c
+linking encoding gbk.so
+compiling ./enc/iso_8859_1.c
+linking encoding iso_8859_1.so
+compiling ./enc/iso_8859_2.c
+linking encoding iso_8859_2.so
+compiling ./enc/iso_8859_3.c
+linking encoding iso_8859_3.so
+compiling ./enc/iso_8859_4.c
+linking encoding iso_8859_4.so
+compiling ./enc/iso_8859_5.c
+linking encoding iso_8859_5.so
+compiling ./enc/iso_8859_6.c
+linking encoding iso_8859_6.so
+compiling ./enc/iso_8859_7.c
+linking encoding iso_8859_7.so
+compiling ./enc/iso_8859_8.c
+linking encoding iso_8859_8.so
+compiling ./enc/iso_8859_9.c
+linking encoding iso_8859_9.so
+compiling ./enc/iso_8859_10.c
+linking encoding iso_8859_10.so
+compiling ./enc/iso_8859_11.c
+linking encoding iso_8859_11.so
+compiling ./enc/iso_8859_13.c
+linking encoding iso_8859_13.so
+compiling ./enc/iso_8859_14.c
+linking encoding iso_8859_14.so
+compiling ./enc/iso_8859_15.c
+linking encoding iso_8859_15.so
+compiling ./enc/iso_8859_16.c
+linking encoding iso_8859_16.so
+compiling ./enc/koi8_r.c
+linking encoding koi8_r.so
+compiling ./enc/koi8_u.c
+linking encoding koi8_u.so
+compiling ./enc/shift_jis.c
+linking encoding shift_jis.so
+compiling ./enc/utf_16be.c
+linking encoding utf_16be.so
+compiling ./enc/utf_16le.c
+linking encoding utf_16le.so
+compiling ./enc/utf_32be.c
+linking encoding utf_32be.so
+compiling ./enc/utf_32le.c
+linking encoding utf_32le.so
+compiling ./enc/windows_31j.c
+linking encoding windows_31j.so
+compiling ./enc/windows_1251.c
+linking encoding windows_1251.so
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+making srcs under enc
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Nothing to be done for `srcs'.
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+generating transdb.h
+transdb.h unchanged
+making trans
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+compiling ./enc/trans/transdb.c
+linking transcoder transdb.so
+compiling ./enc/trans/big5.c
+linking transcoder big5.so
+compiling ./enc/trans/chinese.c
+linking transcoder chinese.so
+compiling ./enc/trans/emoji.c
+linking transcoder emoji.so
+compiling ./enc/trans/emoji_iso2022_kddi.c
+linking transcoder emoji_iso2022_kddi.so
+compiling ./enc/trans/emoji_sjis_docomo.c
+linking transcoder emoji_sjis_docomo.so
+compiling ./enc/trans/emoji_sjis_kddi.c
+linking transcoder emoji_sjis_kddi.so
+compiling ./enc/trans/emoji_sjis_softbank.c
+linking transcoder emoji_sjis_softbank.so
+compiling ./enc/trans/escape.c
+linking transcoder escape.so
+compiling ./enc/trans/gb18030.c
+linking transcoder gb18030.so
+compiling ./enc/trans/gbk.c
+linking transcoder gbk.so
+compiling ./enc/trans/iso2022.c
+linking transcoder iso2022.so
+compiling ./enc/trans/japanese.c
+linking transcoder japanese.so
+compiling ./enc/trans/japanese_euc.c
+linking transcoder japanese_euc.so
+compiling ./enc/trans/japanese_sjis.c
+linking transcoder japanese_sjis.so
+compiling ./enc/trans/korean.c
+linking transcoder korean.so
+compiling ./enc/trans/single_byte.c
+linking transcoder single_byte.so
+compiling ./enc/trans/utf8_mac.c
+linking transcoder utf8_mac.so
+compiling ./enc/trans/utf_16_32.c
+linking transcoder utf_16_32.so
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+making encs
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+generating makefile exts.mk
+configuring -test-/array/resize
+configuring -test-/bignum
+configuring -test-/bug-3571
+configuring -test-/bug-3662
+configuring -test-/bug-5832
+configuring -test-/bug_reporter
+configuring -test-/class
+configuring -test-/debug
+configuring -test-/exception
+configuring -test-/fatal
+configuring -test-/file
+configuring -test-/funcall
+configuring -test-/iter
+configuring -test-/load/dot.dot
+configuring -test-/marshal/compat
+configuring -test-/marshal/usr
+configuring -test-/method
+configuring -test-/num2int
+configuring -test-/old_thread_select
+configuring -test-/path_to_class
+configuring -test-/postponed_job
+configuring -test-/printf
+configuring -test-/rational
+configuring -test-/recursion
+configuring -test-/st/numhash
+configuring -test-/st/update
+configuring -test-/string
+configuring -test-/symbol
+configuring -test-/tracepoint
+configuring -test-/typeddata
+configuring -test-/wait_for_single_fd
+configuring -test-/win32/dln
+Failed to configure -test-/win32/dln. It will not be installed.
+configuring -test-/win32/fd_setsize
+Failed to configure -test-/win32/fd_setsize. It will not be installed.
+configuring bigdecimal
+configuring continuation
+configuring coverage
+configuring date
+configuring dbm
+Failed to configure dbm. It will not be installed.
+configuring digest
+configuring digest/bubblebabble
+configuring digest/md5
+configuring digest/rmd160
+configuring digest/sha1
+configuring digest/sha2
+configuring dl
+configuring dl/callback
+configuring etc
+configuring fcntl
+configuring fiber
+configuring fiddle
+configuring gdbm
+Failed to configure gdbm. It will not be installed.
+configuring io/console
+configuring io/nonblock
+configuring io/wait
+configuring json
+configuring json/generator
+configuring json/parser
+configuring mathn/complex
+configuring mathn/rational
+configuring nkf
+configuring objspace
+configuring openssl
+configuring pathname
+configuring psych
+configuring pty
+configuring racc/cparse
+configuring rbconfig/sizeof
+configuring readline
+configuring ripper
+configuring sdbm
+configuring socket
+configuring stringio
+configuring strscan
+configuring syslog
+configuring thread
+configuring tk
+...........
+check struct members..
+check libraries....
+Use ActiveTcl libraries (if available).
+Search tclConfig.sh and tkConfig.sh....................
+Fail to find [tclConfig.sh, tkConfig.sh]
+Use X11 libraries (or use TK_XINCLUDES/TK_XLIBSW information on tkConfig.sh).
+
+Search tcl.h..
+Search tk.h..Search Tcl library......
+Search Tcl library......
+Warning:: cannot find Tcl library. tcltklib will not be compiled (tcltklib is disabled on your Ruby. That is, Ruby/Tk will not work). Please check configure options.
+
+Can't find proper Tcl/Tk libraries. So, can't make tcltklib.so which is required by Ruby/Tk.
+If you have Tcl/Tk libraries on your environment, you may be able to use them with configure options (see ext/tk/README.tcltklib).
+At present, Tcl/Tk8.6 is not supported. Although you can try to use Tcl/Tk8.6 with configure options, it will not work correctly. I recommend you to use Tcl/Tk8.5 or 8.4.
+Failed to configure tk. It will not be installed.
+configuring tk/tkutil
+Failed to configure tk/tkutil. It will not be installed.
+configuring win32
+Failed to configure win32. It will not be installed.
+configuring win32ole
+Failed to configure win32ole. It will not be installed.
+configuring zlib
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/array/resize'
+compiling resize.c
+linking shared-object -test-/array/resize.so
+installing default resize libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/array/resize'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bignum'
+compiling str2big.c
+compiling init.c
+compiling intpack.c
+compiling mul.c
+compiling div.c
+compiling bigzero.c
+compiling big2str.c
+linking shared-object -test-/bignum.so
+installing default bignum libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bignum'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3571'
+compiling bug.c
+linking shared-object -test-/bug-3571/bug.so
+installing default bug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3571'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3662'
+compiling bug.c
+linking shared-object -test-/bug-3662/bug.so
+installing default bug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3662'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-5832'
+compiling bug.c
+linking shared-object -test-/bug-5832/bug.so
+installing default bug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-5832'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug_reporter'
+compiling bug_reporter.c
+linking shared-object -test-/bug_reporter/bug_reporter.so
+installing default bug_reporter libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug_reporter'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/class'
+compiling init.c
+compiling class2name.c
+linking shared-object -test-/class.so
+installing default class libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/class'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/debug'
+compiling init.c
+compiling profile_frames.c
+compiling inspector.c
+linking shared-object -test-/debug.so
+installing default debug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/debug'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/exception'
+compiling dataerror.c
+compiling enc_raise.c
+compiling init.c
+compiling ensured.c
+linking shared-object -test-/exception.so
+installing default exception libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/exception'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/fatal'
+compiling rb_fatal.c
+linking shared-object -test-/fatal/rb_fatal.so
+installing default rb_fatal libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/fatal'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/file'
+compiling init.c
+compiling stat.c
+linking shared-object -test-/file.so
+installing default file libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/file'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/funcall'
+compiling passing_block.c
+linking shared-object -test-/funcall/funcall.so
+installing default funcall libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/funcall'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/iter'
+compiling init.c
+compiling yield.c
+compiling break.c
+linking shared-object -test-/iter.so
+installing default iter libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/iter'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/load/dot.dot'
+compiling dot.dot.c
+linking shared-object -test-/load/dot.dot/dot.dot.so
+installing default dot.dot libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/load/dot.dot'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/compat'
+compiling usrcompat.c
+linking shared-object -test-/marshal/compat.so
+installing default compat libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/compat'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/usr'
+compiling usrmarshal.c
+linking shared-object -test-/marshal/usr.so
+installing default usr libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/usr'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/method'
+compiling init.c
+compiling arity.c
+linking shared-object -test-/method.so
+installing default method libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/method'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/num2int'
+compiling num2int.c
+linking shared-object -test-/num2int/num2int.so
+installing default num2int libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/num2int'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/old_thread_select'
+compiling old_thread_select.c
+linking shared-object -test-/old_thread_select/old_thread_select.so
+installing default old_thread_select libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/old_thread_select'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/path_to_class'
+compiling path_to_class.c
+linking shared-object -test-/path_to_class/path_to_class.so
+installing default path_to_class libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/path_to_class'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/postponed_job'
+compiling postponed_job.c
+linking shared-object -test-/postponed_job.so
+installing default postponed_job libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/postponed_job'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/printf'
+compiling printf.c
+linking shared-object -test-/printf.so
+installing default printf libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/printf'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/rational'
+compiling rat.c
+linking shared-object -test-/rational.so
+installing default rational libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/rational'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/recursion'
+compiling recursion.c
+linking shared-object -test-/recursion.so
+installing default recursion libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/recursion'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/numhash'
+compiling numhash.c
+linking shared-object -test-/st/numhash.so
+installing default numhash libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/numhash'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/update'
+compiling update.c
+linking shared-object -test-/st/update.so
+installing default update libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/update'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/string'
+compiling init.c
+compiling ellipsize.c
+compiling enc_associate.c
+compiling set_len.c
+compiling normalize.c
+compiling coderange.c
+compiling modify.c
+compiling qsort.c
+compiling enc_str_buf_cat.c
+compiling cstr.c
+linking shared-object -test-/string/string.so
+installing default string libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/string'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/symbol'
+compiling init.c
+compiling intern.c
+compiling type.c
+linking shared-object -test-/symbol.so
+installing default symbol libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/symbol'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/tracepoint'
+compiling tracepoint.c
+compiling gc_hook.c
+linking shared-object -test-/tracepoint.so
+installing default tracepoint libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/tracepoint'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/typeddata'
+compiling typeddata.c
+linking shared-object -test-/typeddata/typeddata.so
+installing default typeddata libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/typeddata'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/wait_for_single_fd'
+compiling wait_for_single_fd.c
+linking shared-object -test-/wait_for_single_fd/wait_for_single_fd.so
+installing default wait_for_single_fd libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/wait_for_single_fd'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/dln'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/dln'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/fd_setsize'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/fd_setsize'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/bigdecimal'
+compiling bigdecimal.c
+linking shared-object bigdecimal.so
+installing default bigdecimal libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/bigdecimal'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/continuation'
+compiling continuation.c
+linking shared-object continuation.so
+installing default continuation libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/continuation'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/coverage'
+compiling coverage.c
+linking shared-object coverage.so
+installing default coverage libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/coverage'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/date'
+compiling date_core.c
+compiling date_strptime.c
+compiling date_strftime.c
+compiling date_parse.c
+linking shared-object date_core.so
+installing default date_core libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/date'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/dbm'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/dbm'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest'
+compiling digest.c
+linking shared-object digest.so
+installing digest libraries
+installing default digest libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/bubblebabble'
+compiling bubblebabble.c
+linking shared-object digest/bubblebabble.so
+installing default bubblebabble libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/bubblebabble'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/md5'
+compiling md5init.c
+compiling md5ossl.c
+linking shared-object digest/md5.so
+installing default md5 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/md5'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/rmd160'
+compiling rmd160init.c
+compiling rmd160.c
+linking shared-object digest/rmd160.so
+installing default rmd160 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/rmd160'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha1'
+compiling sha1init.c
+compiling sha1ossl.c
+linking shared-object digest/sha1.so
+installing default sha1 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha1'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha2'
+compiling sha2init.c
+compiling sha2ossl.c
+linking shared-object digest/sha2.so
+installing default sha2 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha2'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl'
+compiling handle.c
+compiling cptr.c
+compiling dl.c
+compiling cfunc.c
+linking shared-object dl.so
+installing dl libraries
+installing default dl libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl/callback'
+compiling callback.c
+compiling callback-0.c
+compiling callback-1.c
+compiling callback-2.c
+compiling callback-3.c
+compiling callback-4.c
+compiling callback-5.c
+compiling callback-6.c
+compiling callback-7.c
+compiling callback-8.c
+linking shared-object dl/callback.so
+installing default callback libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl/callback'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/etc'
+compiling etc.c
+linking shared-object etc.so
+installing default etc libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/etc'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/fcntl'
+compiling fcntl.c
+linking shared-object fcntl.so
+installing default fcntl libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/fcntl'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiber'
+compiling fiber.c
+linking shared-object fiber.so
+installing default fiber libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiber'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiddle'
+compiling handle.c
+compiling pointer.c
+compiling conversions.c
+compiling closure.c
+compiling function.c
+compiling fiddle.c
+linking shared-object fiddle.so
+installing default fiddle libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiddle'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/gdbm'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/gdbm'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/console'
+compiling console.c
+linking shared-object io/console.so
+installing default console libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/console'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/nonblock'
+compiling nonblock.c
+linking shared-object io/nonblock.so
+installing default nonblock libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/nonblock'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/wait'
+compiling wait.c
+linking shared-object io/wait.so
+installing default wait libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/wait'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/json'
+installing default libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/json'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/generator'
+compiling generator.c
+linking shared-object json/ext/generator.so
+installing default generator libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/generator'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/parser'
+compiling parser.c
+linking shared-object json/ext/parser.so
+installing default parser libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/parser'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/complex'
+compiling complex.c
+linking shared-object mathn/complex.so
+installing default complex libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/complex'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/rational'
+compiling rational.c
+linking shared-object mathn/rational.so
+installing default rational libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/rational'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/nkf'
+compiling nkf.c
+linking shared-object nkf.so
+installing default nkf libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/nkf'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/objspace'
+compiling objspace.c
+compiling objspace_dump.c
+compiling object_tracing.c
+linking shared-object objspace.so
+installing default objspace libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/objspace'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/openssl'
+compiling ossl_pkey_dh.c
+compiling openssl_missing.c
+compiling ossl_ns_spki.c
+compiling ossl_config.c
+compiling ossl_x509attr.c
+compiling ossl_pkcs7.c
+compiling ossl_cipher.c
+compiling ossl_pkey.c
+compiling ossl_pkey_ec.c
+compiling ossl_pkey_rsa.c
+compiling ossl_engine.c
+compiling ossl_x509ext.c
+compiling ossl_x509req.c
+compiling ossl_pkcs5.c
+compiling ossl_rand.c
+compiling ossl_ssl.c
+compiling ossl_x509cert.c
+compiling ossl_x509revoked.c
+compiling ossl_pkey_dsa.c
+compiling ossl_x509name.c
+compiling ossl.c
+compiling ossl_asn1.c
+compiling ossl_x509crl.c
+compiling ossl_digest.c
+compiling ossl_hmac.c
+compiling ossl_bn.c
+compiling ossl_x509.c
+compiling ossl_bio.c
+compiling ossl_x509store.c
+compiling ossl_ocsp.c
+compiling ossl_pkcs12.c
+compiling ossl_ssl_session.c
+linking shared-object openssl.so
+installing default openssl libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/openssl'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/pathname'
+compiling pathname.c
+linking shared-object pathname.so
+installing default pathname libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/pathname'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/psych'
+compiling psych.c
+compiling psych_parser.c
+compiling psych_emitter.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+installing default psych libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/psych'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/pty'
+compiling pty.c
+linking shared-object pty.so
+installing default pty libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/pty'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/racc/cparse'
+compiling cparse.c
+linking shared-object racc/cparse.so
+installing default cparse libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/racc/cparse'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/rbconfig/sizeof'
+compiling sizes.c
+linking shared-object rbconfig/sizeof.so
+installing default sizeof libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/rbconfig/sizeof'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/readline'
+compiling readline.c
+linking shared-object readline.so
+installing default readline libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/readline'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/ripper'
+compiling ripper.c
+linking shared-object ripper.so
+installing default ripper libraries
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/ripper'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/sdbm'
+compiling init.c
+compiling _sdbm.c
+linking shared-object sdbm.so
+installing default sdbm libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/sdbm'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/socket'
+generating constant definitions
+compiling init.c
+compiling constants.c
+compiling basicsocket.c
+compiling socket.c
+compiling ipsocket.c
+compiling tcpsocket.c
+compiling tcpserver.c
+compiling sockssocket.c
+compiling udpsocket.c
+compiling unixsocket.c
+compiling unixserver.c
+compiling option.c
+compiling ancdata.c
+compiling raddrinfo.c
+compiling ifaddr.c
+linking shared-object socket.so
+installing default socket libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/socket'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/stringio'
+compiling stringio.c
+linking shared-object stringio.so
+installing default stringio libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/stringio'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/strscan'
+compiling strscan.c
+linking shared-object strscan.so
+installing default strscan libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/strscan'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/syslog'
+compiling syslog.c
+linking shared-object syslog.so
+installing default syslog libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/syslog'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/thread'
+compiling thread.c
+linking shared-object thread.so
+installing default thread libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/thread'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk/tkutil'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk/tkutil'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32ole'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32ole'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/zlib'
+compiling zlib.c
+linking shared-object zlib.so
+installing default zlib libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/zlib'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+linking ruby
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+Generating RDoc documentation
+
+Generating RI format into /home/icts/railsready/src/ruby-2.1.0/.ext/rdoc...
+
+  Files:        962
+
+  Classes:     1414 ( 566 undocumented)
+  Modules:      268 (  87 undocumented)
+  Constants:   2097 ( 624 undocumented)
+  Attributes:  1142 ( 272 undocumented)
+  Methods:    10644 (2225 undocumented)
+
+  Total:      15565 (3774 undocumented)
+   75.75% documented
+
+  Elapsed: 114.5s
+
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -ansi -std=iso9899:199409 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT -fPIE
+	CPPFLAGS =   -I. -I.ext/include/i686-linux -I./include -I.
+	DLDFLAGS = -fstack-protector -pie  
+	SOLIBS = 
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+generating encdb.h
+encdb.h unchanged
+making enc
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Nothing to be done for `enc'.
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+making srcs under enc
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Nothing to be done for `srcs'.
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+generating transdb.h
+transdb.h unchanged
+making trans
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Nothing to be done for `./enc/trans'.
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+making encs
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+generating makefile exts.mk
+Failed to configure -test-/win32/dln. It will not be installed.
+Failed to configure -test-/win32/fd_setsize. It will not be installed.
+Failed to configure dbm. It will not be installed.
+Failed to configure gdbm. It will not be installed.
+configuring socket
+Failed to configure tk. It will not be installed.
+Failed to configure tk/tkutil. It will not be installed.
+Failed to configure win32. It will not be installed.
+Failed to configure win32ole. It will not be installed.
+make[1]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/array/resize'
+installing default resize libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/array/resize'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bignum'
+installing default bignum libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bignum'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3571'
+installing default bug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3571'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3662'
+installing default bug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-3662'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-5832'
+installing default bug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug-5832'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug_reporter'
+installing default bug_reporter libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/bug_reporter'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/class'
+installing default class libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/class'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/debug'
+installing default debug libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/debug'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/exception'
+installing default exception libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/exception'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/fatal'
+installing default rb_fatal libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/fatal'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/file'
+installing default file libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/file'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/funcall'
+installing default funcall libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/funcall'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/iter'
+installing default iter libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/iter'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/load/dot.dot'
+installing default dot.dot libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/load/dot.dot'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/compat'
+installing default compat libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/compat'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/usr'
+installing default usr libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/marshal/usr'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/method'
+installing default method libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/method'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/num2int'
+installing default num2int libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/num2int'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/old_thread_select'
+installing default old_thread_select libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/old_thread_select'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/path_to_class'
+installing default path_to_class libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/path_to_class'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/postponed_job'
+installing default postponed_job libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/postponed_job'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/printf'
+installing default printf libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/printf'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/rational'
+installing default rational libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/rational'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/recursion'
+installing default recursion libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/recursion'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/numhash'
+installing default numhash libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/numhash'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/update'
+installing default update libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/st/update'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/string'
+installing default string libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/string'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/symbol'
+installing default symbol libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/symbol'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/tracepoint'
+installing default tracepoint libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/tracepoint'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/typeddata'
+installing default typeddata libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/typeddata'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/wait_for_single_fd'
+installing default wait_for_single_fd libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/wait_for_single_fd'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/dln'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/dln'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/fd_setsize'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/-test-/win32/fd_setsize'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/bigdecimal'
+installing default bigdecimal libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/bigdecimal'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/continuation'
+installing default continuation libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/continuation'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/coverage'
+installing default coverage libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/coverage'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/date'
+installing default date_core libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/date'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/dbm'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/dbm'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest'
+installing digest libraries
+installing default digest libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/bubblebabble'
+installing default bubblebabble libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/bubblebabble'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/md5'
+installing default md5 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/md5'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/rmd160'
+installing default rmd160 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/rmd160'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha1'
+installing default sha1 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha1'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha2'
+installing default sha2 libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/digest/sha2'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl'
+installing dl libraries
+installing default dl libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl/callback'
+installing default callback libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/dl/callback'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/etc'
+installing default etc libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/etc'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/fcntl'
+installing default fcntl libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/fcntl'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiber'
+installing default fiber libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiber'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiddle'
+installing default fiddle libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/fiddle'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/gdbm'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/gdbm'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/console'
+installing default console libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/console'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/nonblock'
+installing default nonblock libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/nonblock'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/wait'
+installing default wait libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/io/wait'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/json'
+installing default libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/json'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/generator'
+installing default generator libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/generator'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/parser'
+installing default parser libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/json/parser'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/complex'
+installing default complex libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/complex'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/rational'
+installing default rational libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/mathn/rational'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/nkf'
+installing default nkf libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/nkf'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/objspace'
+installing default objspace libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/objspace'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/openssl'
+installing default openssl libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/openssl'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/pathname'
+installing default pathname libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/pathname'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/psych'
+installing default psych libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/psych'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/pty'
+installing default pty libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/pty'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/racc/cparse'
+installing default cparse libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/racc/cparse'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/rbconfig/sizeof'
+installing default sizeof libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/rbconfig/sizeof'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/readline'
+installing default readline libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/readline'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/ripper'
+linking shared-object ripper.so
+installing default ripper libraries
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/ripper'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/sdbm'
+installing default sdbm libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/sdbm'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/socket'
+linking shared-object socket.so
+installing default socket libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/socket'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/stringio'
+installing default stringio libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/stringio'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/strscan'
+installing default strscan libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/strscan'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/syslog'
+installing default syslog libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/syslog'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/thread'
+installing default thread libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/thread'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk/tkutil'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/tk/tkutil'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32ole'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/win32ole'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0/ext/zlib'
+installing default zlib libraries
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0/ext/zlib'
+make[2]: Entering directory `/home/icts/railsready/src/ruby-2.1.0'
+make[2]: `ruby' is up to date.
+make[2]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+make[1]: Leaving directory `/home/icts/railsready/src/ruby-2.1.0'
+Generating RDoc documentation
+
+No newer files.
+
+  Files:      0
+
+  Classes:    0 (0 undocumented)
+  Modules:    0 (0 undocumented)
+  Constants:  0 (0 undocumented)
+  Attributes: 0 (0 undocumented)
+  Methods:    0 (0 undocumented)
+
+  Total:      0 (0 undocumented)
+    0.00% documented
+
+  Elapsed: 0.0s
+
+config.status: creating i686-linux-fake.rb
+./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems -r./i686-linux-fake ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="doc" --install=all --rdoc-output=".ext/rdoc"
+installing binary commands:   /usr/local/bin
+installing base libraries:    /usr/local/lib
+installing arch files:        /usr/local/lib/ruby/2.1.0/i686-linux
+installing pkgconfig data:    /usr/local/lib/pkgconfig
+installing command scripts:   /usr/local/bin
+installing library scripts:   /usr/local/lib/ruby/2.1.0
+installing common headers:    /usr/local/include/ruby-2.1.0
+installing manpages:          /usr/local/share/man/man1
+installing extension objects: /usr/local/lib/ruby/2.1.0/i686-linux
+installing extension objects: /usr/local/lib/ruby/site_ruby/2.1.0/i686-linux
+installing extension objects: /usr/local/lib/ruby/vendor_ruby/2.1.0/i686-linux
+installing extension headers: /usr/local/include/ruby-2.1.0/i686-linux
+installing extension scripts: /usr/local/lib/ruby/2.1.0
+installing extension scripts: /usr/local/lib/ruby/site_ruby/2.1.0
+installing extension scripts: /usr/local/lib/ruby/vendor_ruby/2.1.0
+installing extension headers: /usr/local/include/ruby-2.1.0/ruby
+installing default gems:      /usr/local/lib/ruby/gems/2.1.0 (build_info, cache, doc, extensions, gems, specifications)
+                              bigdecimal 1.2.3
+                              io-console 0.4.2
+                              json 1.8.1
+                              minitest 4.7.5
+                              psych 2.0.2
+                              rake 10.1.0
+                              rdoc 4.1.0
+                              test-unit 2.1.0.0
+installing rdoc:              /usr/local/share/ri/2.1.0/system
+installing capi-docs:         /usr/local/share/doc/ruby
+Updating rubygems-update
+Successfully installed rubygems-update-2.2.2
+Installing RubyGems 2.2.2
+RubyGems 2.2.2 installed
+
+=== 2.2.1 / 2014-01-06
+
+Bug fixes:
+
+* Platforms in the Gemfile.lock GEM section are now handled correctly.  Bug
+  #767 by Diego Viola.
+* RubyGems now displays which gem couldn't be uninstalled from the home
+  directory.  Pull request #757 by Michal Papis.
+* Removed unused method Gem::Resolver#find_conflict_state.  Pull request #759
+  by Smit Shah.
+* Fixed installing gems from local files without dependencies.  Issue #760 by
+  Arash Mousavi, pull request #764 by Tim Moore.
+* Removed TODO about syntax that works in Ruby 1.8.7.  Pull request #765 by
+  Benjamin Fleischer.
+* Switched Gem.ruby_api_version to use RbConfig::CONFIG['ruby_version'] which
+  has the same value but is overridable by packagers through
+  --with-ruby-version= when configuring ruby.  Bug #770 by Jeremy Evans.
+* RubyGems now prefers the bundler API for `gem install` to reduce HTTP
+  requests.  (This change was intended for RubyGems 2.2.0 but was missed.)
+  This should address bug #762 by Dan Peterson and bug #766 by mipearson.
+* Added Gem::BasicSpecification#source_paths so documentation or analysis
+  tools can work properly as require_paths no longer returns extension source
+  directories.  Bug #758 Vít Ondruch.
+* Gem.read_binary can read read-only files again.  This caused file://
+  repositories to stop working.  Bug #761 by John Anderson.
+* Fixed specification file sorting for Ruby 1.8.7 compatibility.  Pull
+  request #763 by James Mead
+
+=== 2.2.0 / 2013-12-26
+
+Special thanks to Vít Ondruch and Michal Papis for testing and finding bugs in
+RubyGems as it was prepared for the 2.2.0 release.
+
+Major enhancements:
+
+* RubyGems can check for gem dependencies files (gem.deps.rb or Gemfile) when
+  rubygems executables are started and uses the found dependencies.  This
+  means `rake` will work similar to `bundle exec rake`.  To enable this set
+  the `RUBYGEMS_GEMDEPS` environment variable to the location of your
+  dependencies file.
+
+  See Gem::use_gemdeps for further details.
+
+* A RubyGems directory may now be shared amongst multiple ruby versions.  Upon
+  activation RubyGems will automatically compile missing extensions for the
+  current platform when the built objects are missing.  Issue #596 by Michal
+  Papis
+
+  By default different platforms do not share gem install locations so this
+  must be configured by setting GEM_HOME to a common directory.  Some gems use
+  fixed paths for requiring extensions and are not compatible with sharing gem
+  directories.
+
+  The default sharing location may be configured by RubyGems packagers through
+  Gem.default_ext_dir_for.  Pull Request #744 by Vít Ondruch.
+
+Minor enhancements:
+
+* RubyGems checks the 'allowed_push_host' metadata value when pushing a gem to
+  prevent an accidental push to a public repository (such as rubygems.org).
+  If you have private gems you should set this value in your gem specification
+  metadata.  Pull request #603 by Seamus Abshere.
+* `gem list` now shows results for multiple arguments.  Pull request #604 by
+  Zach Rabinovich.
+* `gem pristine --extensions` will restore only gems with extensions.  Issue
+  #619 by Postmodern.
+* Gem::Specification#files is now sorted.  Pull request #612 by Justin George.
+* For `gem list` and friends, "LOCAL" and "REMOTE" headers are omitted if
+  only local or remote gem information is requested with --quiet.  Pull
+  request #615 by Michal Papis.
+* Added Gem::Specification#full_require_paths which is like require_paths, but
+  returns a fully-qualified results.  Pull request #632 by Vít Ondruch.
+* RubyGems now looks for the https_proxy environment variable for https://
+  sources.  RubyGems will fall back to http_proxy if there is no https_proxy.
+  Issue #610 by mkristian.
+* RubyGems now creates directories in .gem files.  Issue #631 by marksolaris.
+* RubyGems raises an exception when a specification includes its gem.  Issue
+  #623 by notEthan.
+* RubyGems now displays relevant release note information when updating
+  RubyGems.  Issue #647 by Trevor Wennblom.
+* Deprecated Gem::Installer::ExtensionBuildError in favor of
+  Gem::Ext::BuildError.  The old constant is an alias for the new constant.
+* When extensions are built the gem_make.out file is always written now, even
+  on success.  This will help with debugging bad builds that report success.
+* If a specification fails to validate RubyGems shows a link to the
+  specification reference guide.  Issue #656 by Markus Heiler.
+* When using `gem install -g`, RubyGems now detects the presence of an
+  Isolate, Gemfile or gem.deps.rb file.
+* Added Gem::StubSpecification#stubbed? to help determine if a user should run
+  `gem pristine` to speed up gem loading.  Pull request #694 and #701 by Jon
+  Leighton.
+* RubyGems now warns when a gem has a pessimistic version dependency that may
+  be too strict.
+* RubyGems now warns when a gem has an open-ended dependency.
+* RubyGems now raises an exception when a dependency for a gem is defined
+  twice.
+* Marked the license specification attribute as recommended.  Pull request
+  #713 by Benjamin Fleischer.
+* RubyGems uses io/console instead of `stty` when available.  Pull request
+  #740 by Nobuyoshi Nakada
+* Relaxed Gem.ruby tests for platforms that override where ruby lives.  Pull
+  Request #755 by strzibny.
+
+Bug fixes:
+
+* RubyGems now returns an error status when any file given to `gem which`
+  cannot be found.  Ruby bug #9004 by Eugene Vilensky.
+* Fixed command escaping when building rake extensions.  Pull request #721 by
+  Dmitry Ratnikov.
+* Fixed uninstallation of gems when GEM_HOME is a relative directory.  Issue
+  #708 by Ryan Davis.
+* Default gems are now ignored by Gem::Validator#alien.  Issue #717 by David
+  Bahar.
+* Fixed typos in RubyGems.  Pull requests #723, #725, #731 by Akira Matsuda,
+  pull request #736 by Leo Gallucci, pull request #746 by DV Suresh.
+* RubyGems now holds exclusive locks on cached gem files to prevent incorrect
+  updates.  Pull Request #737 by Smit Shah
+* Improved speed of `gem install --ignore-dependencies`.  Patch by Terence
+  Lee.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/usr/local/bin/gem
+
+RubyGems system software updated
+Successfully installed bundler-1.6.1
+Successfully installed daemon_controller-1.2.0
+Successfully installed rack-1.5.2
+Building native extensions.  This could take a while...
+Successfully installed passenger-4.0.40
+Successfully installed thread_safe-0.3.2
+Successfully installed tzinfo-0.3.39
+Successfully installed multi_json-1.9.2
+Successfully installed i18n-0.6.9
+Successfully installed activesupport-4.0.4
+Successfully installed erubis-2.7.0
+Successfully installed rack-test-0.6.2
+Successfully installed builder-3.1.4
+Successfully installed actionpack-4.0.4
+Successfully installed activerecord-deprecated_finders-1.0.3
+Successfully installed arel-4.0.2
+Successfully installed activemodel-4.0.4
+Successfully installed activerecord-4.0.4
+Successfully installed mime-types-1.25.1
+Successfully installed polyglot-0.3.4
+Successfully installed treetop-1.4.15
+Successfully installed mail-2.5.4
+Successfully installed actionmailer-4.0.4
+Successfully installed thor-0.19.1
+Successfully installed railties-4.0.4
+Successfully installed tilt-1.4.1
+Successfully installed hike-1.2.3
+Successfully installed sprockets-2.12.0
+Successfully installed sprockets-rails-2.0.1
+Successfully installed rails-4.0.4
+29 gems installed
